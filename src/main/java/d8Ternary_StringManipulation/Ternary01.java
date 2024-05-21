@@ -4,7 +4,7 @@ public class Ternary01 {
 
     public static void main(String[] args) {
 
-        //another conditional stament sytanx ternary
+        //another conditional statement syntax ternary
 
 
 //        (condition)  ?  (this part only for true) : (this part is working only for false);

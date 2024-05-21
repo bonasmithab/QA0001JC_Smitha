@@ -2,7 +2,7 @@ package d6IfStatement;
 
 import java.util.Scanner;
 
-public class IfStatement03 {
+public class IfElseIfElseStatement {
 
     public static void main(String[] args) {
 

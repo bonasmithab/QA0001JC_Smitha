@@ -4,7 +4,7 @@ public class Switch01 {
 
         public static void main(String[] args) {
 
-            //Switch Statement : based on different conditions we can do tasks with a simplier sytanx
+            //Switch Statement : based on different conditions we can do tasks with a simpler syntax
 
             //Example; Create code to print day numbers based on the day names
 

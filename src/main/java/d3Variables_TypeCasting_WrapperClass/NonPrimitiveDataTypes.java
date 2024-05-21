@@ -1,6 +1,6 @@
 package d3Variables_TypeCasting_WrapperClass;
 
-public class Variables04 {
+public class NonPrimitiveDataTypes {
 
     public static void main(String[] args) {
 

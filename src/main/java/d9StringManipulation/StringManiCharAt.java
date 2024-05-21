@@ -1,6 +1,6 @@
 package d9StringManipulation;
 
-public class StringManipulation01 {
+public class StringManiCharAt {
 
     public static void main(String[] args) {
 

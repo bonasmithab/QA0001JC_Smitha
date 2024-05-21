@@ -1,6 +1,6 @@
 package d3Variables_TypeCasting_WrapperClass;
 
-public class Variables03 {
+public class DifferentDataTypes {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,6 @@ public class Variables03 {
 
         char nameOfSmitha = 'S';
         System.out.println("nameofSmitha = " + nameOfSmitha);
-        System.out.println("nameOfSmitha = " + nameOfSmitha);
 
         //BOOLEAN DATA TYPE: ACCEPT TRUE OR FALSE AS A DATA
 

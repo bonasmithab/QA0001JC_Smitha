@@ -1,11 +1,11 @@
 //Type Casting
 //Used for converting one primitive data type to another primitive data type
-//1) Autowidenin Casting: If you assign a smaller data tyoe to a larger data type
+//1) Autowidening Casting: If you assign a smaller data type to a larger data type
 Then java converts the data type automatically
 
-//2)Explicit Narrowing Casting: If you assign a larger data type to smaller datat type
+//2)Explicit Narrowing Casting: If you assign a larger data type to smaller data type
     then java can not convert to data type automatically to the smaller one
-    You have to convert mannually
+    You have to convert manually
 
 
 //Wrapper Class

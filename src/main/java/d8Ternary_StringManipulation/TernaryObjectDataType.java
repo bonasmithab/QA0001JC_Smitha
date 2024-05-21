@@ -1,6 +1,6 @@
 package d8Ternary_StringManipulation;
 
-public class Ternary02 {
+public class TernaryObjectDataType {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package d7IfStatement_Switch;
 
 import java.util.Scanner;
 
-public class IfStatement07 {
+public class IfElseIfExample {
 
     public static void main(String[] args) {
         /*Scanner input = new Scanner(System.in);

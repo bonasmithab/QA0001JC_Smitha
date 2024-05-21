@@ -1,6 +1,6 @@
 package d6IfStatement;
 
-public class IfStatement01 {
+public class SimpleIfCondition {
 
     public static void main(String[] args) {
 
@@ -42,14 +42,14 @@ public class IfStatement01 {
 
         a += 100;
 
-        if(a>100 && a<=999){
+        if(a>100 && a<=999) {
             System.out.println(a + " has three digits....");
             System.out.println("3 digits ");
 
             //Example check the given number and print DIGIT if it is a digit
             System.out.println("============================");
 
-
+        }
             int b = 17;
 
             b -= 8;
@@ -57,7 +57,6 @@ public class IfStatement01 {
             if (b >=0 && b<=9){
 
                 System.out.println(b + " is a digit" + b);
-            }
         }
     }
 }

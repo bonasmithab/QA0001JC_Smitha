@@ -1,6 +1,6 @@
 package d8Ternary_StringManipulation;
 
-public class Ternary04 {
+public class NestedTernary01 {
 
     public static void main(String[] args) {
 
@@ -17,7 +17,7 @@ public class Ternary04 {
         // not divisible by 100 ==> must be divisible by 4    to learn the leap year
 
 
-        int year = 300;
+        int year = 304;
 
         String isLeap =  (year%100 == 0) ? (year%400 == 0 ? "Leap year " : "is not leap year"):
                 (year%4 == 0 ? "Leap Year" : "Not a leap year");

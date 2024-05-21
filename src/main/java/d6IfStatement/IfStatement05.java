@@ -17,7 +17,7 @@ public class IfStatement05 {
         String day = input.next();
 
         // equals () compares two string and return true or false
-        //equals() method is a case sensetive method for string data
+        //equals() method is a case sensitive method for string data
         //If we wanna ignore being uppercase or lowercase of string
         // you can use equalsignorecase
 

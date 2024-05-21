@@ -9,23 +9,23 @@ public class Increment01 {
         //INCREMENT
 
         //Example
-        int a = 5; //Could you pleaase increase value of a by 2 and uptade existing container???
+        int a = 5; //Could you please increase value of a by 2 and update existing container???
 
-        a = a + 2; //longer sytax because we use "a" three times
+        a = a + 2; //longer syntax because we use "a" three times
         System.out.println("Original = " + a);
 
-        // a = a+2 ==> Shorter Sytanx of increasing value in the same container;
+        // a = a+2 ==> Shorter Syntax of increasing value in the same container;
 
-        a += 2; //shorter sytanx of increasing value in the same container
+        a += 2; //shorter syntax of increasing value in the same container
 
-        System.out.println("Lets see the shorter sytanx of increasing value ; " + a);//9
+        System.out.println("Lets see the shorter syntax of increasing value ; " + a);//9
 
         //DECREMENT
 
         int c = 15; //could you pls decrease by 3?
         System.out.println("Original one ; " +c);//15
 
-        c = c - 3; //12 this one is longer snytax
+        c = c - 3; //12 this one is longer syntax
 
         System.out.println("Longer one ; " + c);//12
 

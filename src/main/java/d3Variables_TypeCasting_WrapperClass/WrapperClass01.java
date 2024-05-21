@@ -4,7 +4,7 @@ public class WrapperClass01 {
     public static void main(String[] args) {
 
 
-        //Wrapper Class; Jave created a new data structure by adding some usefull methods to primitive data types.
+        //Wrapper Class; Java created a new data structure by adding some useful methods to primitive data types.
 
         //This new data structure is called "Wrapper Class"
 
@@ -33,7 +33,7 @@ public class WrapperClass01 {
         System.out.println(Byte.MAX_VALUE);
 
 
-        //How to convert primiteve to wrapper class
+        //How to convert primitive to wrapper class
 
         char ch = '?';
 
@@ -41,5 +41,6 @@ public class WrapperClass01 {
 
         Boolean b1 = true;
         boolean b2 = b1; //unboxing
+
     }
 }

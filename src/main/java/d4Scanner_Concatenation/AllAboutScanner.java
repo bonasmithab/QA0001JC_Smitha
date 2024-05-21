@@ -2,7 +2,7 @@ package d4Scanner_Concatenation;
 
 import java.util.Scanner;
 
-public class Scanner02 {
+public class AllAboutScanner {
 
     public static void main(String[] args) {
         //I wanna get input from another system; so i need something more in my class
@@ -26,7 +26,7 @@ public class Scanner02 {
 
 //        how to create object
         //CLASS NAME       + OBJECT NAME +   ASSIGNMENT OP.   + KEYWORD   + CONSTRUCTOR
-        Scanner entry                =              new         Scanner (System.in); // input wiill come through the parameter of scanner class
+            Scanner            entry              =               new       Scanner (System.in); // input wiill come through the parameter of scanner class
 
         //What is the logic of system.in? Im taking something into on the console //System.in is used to read data from keyboard
         //What is the logic of system.out? Im giving something to on the console.

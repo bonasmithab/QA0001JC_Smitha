@@ -1,6 +1,6 @@
 package d9StringManipulation;
 
-public class StringManipulation02 {
+public class StringManipulationRegEx {
 
     public static void main(String[] args) {
 
@@ -45,7 +45,7 @@ public class StringManipulation02 {
          3)ALL UPPERCASE LETTER [A-Z]
          4) ALL THE LETTERS ===> [a-zA-Z]
          5) ALL THE LETTERS AND DIGITS [a-zA-Z0-9]
-         6) ALL PUNCTUATIONS ===> \\p{Punct}
+         6) ALL PUNCTUATIONS ===> \\p{Punct} ===> String str1 = str.replaceAll("[\\p{Punct} && [^;.]]","1" );
          7) All vowels =========> [aeiouAEIOU]
 
          ALL  x, y , z ====> [xyz]

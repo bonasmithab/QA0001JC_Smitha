@@ -2,7 +2,7 @@ package d6IfStatement;
 
 import java.util.Scanner;
 
-public class IfStatement02 {
+public class IfAndElseIFStatement {
 
 
     public static void main(String[] args) {
@@ -31,10 +31,10 @@ public class IfStatement02 {
 
         //if else statements
         // if is used to define a specific scenario
-        //when i have two different scenarios, and the only will be true, i can use "else" part for the second condition.....
+        //when I have two different scenarios, and the only one will be true, I can use "else" part for the second condition.....
 
-        // scenari instead of another independent if body
-        //So java will save energy in comparison to two independent if statemens
+        // scenario instead of another independent if body
+        //So java will save energy in comparison to two independent if statements
 
         // java works less here
         //2. way

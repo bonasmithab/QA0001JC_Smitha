@@ -2,7 +2,7 @@ package d7IfStatement_Switch;
 
 import java.util.Scanner;
 
-public class IfStatement06 {
+public class NestedIf {
     public static void main(String[] args) {
         /*Scanner input = new Scanner(System.in);
         System.out.println("Enter the customer age and gender");
