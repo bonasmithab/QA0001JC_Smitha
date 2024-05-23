@@ -10,41 +10,40 @@ public class MethodCreation02 {
         //Access Modifier + static(optinal) +returnType+ methodName + () + {method body}
         System.out.println("multiplication(3,4,5) = " + multiplication(5, 4, 6));
 
-        int total = multiply(5,10,12);
+        int total = multiply(5, 10, 12);
 
         System.out.println("total = " + total);
 
         printText("Hello Java");
 
 
-
     } //end the main method
 
 
-    public static int multiplication (int x,int y, int z){
+    public static int multiplication(int x, int y, int z) {
 
-        int num = x +5;
-        int num2 = y *2;
-
-
-        int totalValue = (num+num2);
+        int num = x + 5;
+        int num2 = y * 2;
 
 
-        return (num+num2);
+        int totalValue = (num + num2);
+
+
+        return (num + num2);
 
     }
 
 //Example2: Create a method with 3 parameter:
 //Multiply first two parameter and add 3rd parameter to the multiplication....
 
-    public static int multiply(int a, int b, int c){
+    public static int multiply(int a, int b, int c) {
 
-        int total = a*b+c;
+        int total = a * b + c;
         return total;
     }
 
     //Example3 Create a method to print entered text......
-    public static void printText(String str){
+    public static void printText(String str) {
 
 
         System.out.println(str);
@@ -54,11 +53,10 @@ public class MethodCreation02 {
         //the argument(data comes through parameter) is taken and just printed....
 
 
-
     }
 
 
-
+}
 
 /*
 ACCESS MODIFIERS IN JAVA i)public ii)proctected iii)default iv)private
