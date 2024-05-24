@@ -2,6 +2,7 @@ package d22Constructor_DateTime_PassByValues;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.Month;
 import java.util.Scanner;
 
@@ -40,11 +41,11 @@ public class DateTime01 {
         System.out.println("year = " + year); //year = 2024
 
         //Example4; catch  the day of the month
-        int  dayOfMonth  =myDate.getDayOfMonth();
+        int dayOfMonth = myDate.getDayOfMonth();
         System.out.println("dayOfMonth = " + dayOfMonth); // dayOfMonth = 23
 
         //Example5; fetch dat of the week
-        DayOfWeek  dayOfWeek = myDate.getDayOfWeek();
+        DayOfWeek dayOfWeek = myDate.getDayOfWeek();
         System.out.println("dayOfWeek = " + dayOfWeek); //dayOfWeek = THURSDAY
 
         //Example6; How to go to a future time....
@@ -74,10 +75,10 @@ public class DateTime01 {
         //How to create a specific date...
         //LocalDate.Of ==> allows us to create a specific data....
 
-        LocalDate specificDate1 = LocalDate.of(2014,10,12);
+        LocalDate specificDate1 = LocalDate.of(2014, 10, 12);
         System.out.println("specificDate1 = " + specificDate1); //specificDate = 2014-10-12
 
-        LocalDate specificDate2 = LocalDate.of(2024,01,12);
+        LocalDate specificDate2 = LocalDate.of(2024, 01, 12);
         System.out.println("specificDate2 = " + specificDate2); //specificDate2 = 2024-01-12
 
         //isAfter() ==> check a date is after another date....
@@ -104,14 +105,14 @@ public class DateTime01 {
 
         //Combine the data create a date in correct format.....
 
-        LocalDate dateEntered = LocalDate.of(yearComp, monthComp,dayComp);
+        LocalDate dateEntered = LocalDate.of(yearComp, monthComp, dayComp);
 
         System.out.println("dateEntered = " + dateEntered);
 
-        if (dateEntered.isBefore(LocalDate.now())){
+        if (dateEntered.isBefore(LocalDate.now())) {
 
             System.out.println("Invalid Date");
-        }else {
+        } else {
             System.out.println("You can reach this time. This is future...");
         }
 
@@ -119,10 +120,10 @@ public class DateTime01 {
 
         System.out.println("Please enter your birthdate");
         int y = scan.nextInt();
-        int m  = scan.nextInt();
+        int m = scan.nextInt();
         int d = scan.nextInt();
 
-        LocalDate birthday = LocalDate.of(y,m,d);
+        LocalDate birthday = LocalDate.of(y, m, d);
 
         System.out.println("My birthday day = " + birthday.getDayOfWeek()); //WEDNESDAY
     }
