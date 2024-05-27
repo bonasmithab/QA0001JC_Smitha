@@ -11,6 +11,5 @@ public class arrTest {
         }System.out.println(reverse);
         String[] Result = reverse.split("");
         System.out.println(Arrays.toString(Result));
-
     }
 }
