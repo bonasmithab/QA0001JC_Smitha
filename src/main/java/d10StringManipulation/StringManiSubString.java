@@ -1,17 +1,17 @@
 package d10StringManipulation;
 
-public class StringManipulation04 {
+public class StringManiSubString {
 
     public static void main(String[] args) {
 
         //Example Catch first 4 characters in the given String
 
-        //Substring(starting index) ===. returns part of the string by starting from specied index and to the end of string
+        //Substring(starting index) ===. returns part of the string by starting from specified index and to the end of string
 
         //substring (starting index , ending index) ==> returns part of string that begins with the character
         //specified in first parameter and extends to the character at ending index
 
-        //NOTE: (starting index) first parameter is inclusuive
+        //NOTE: (starting index) first parameter is inclusive
 //        (ending index) second parameter is exclusive
 
         String s = "Java is funny";

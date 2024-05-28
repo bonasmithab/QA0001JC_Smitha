@@ -53,7 +53,6 @@ public class StringManipulation_IndexOf {
 
         System.out.println("domain2 = " + domain2);
 
-
         String domain3 = email2.substring(5,10);
         System.out.println("domain3 = " + domain3);
 

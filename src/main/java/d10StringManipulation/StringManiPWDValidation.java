@@ -2,7 +2,7 @@ package d10StringManipulation;
 
 import java.util.Scanner;
 
-public class StringManipulation03 {
+public class StringManiPWDValidation {
 
     public static void main(String[] args) {
 

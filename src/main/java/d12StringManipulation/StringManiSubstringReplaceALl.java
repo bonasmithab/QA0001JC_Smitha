@@ -1,6 +1,6 @@
 package d12StringManipulation;
 
-public class StringManipulation02_IndexOf {
+public class StringManiSubstringReplaceALl {
 
     public static void main(String[] args) {
         String cardNum = "123 6789 1234 6789";
