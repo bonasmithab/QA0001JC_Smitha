@@ -1,11 +1,11 @@
 package PracticeTasksClasses;
 
 public class Animal1 {
-    void m1(){
-        System.out.println("m1");
+
+        String name;
+
+        public Animal1(String name) {
+            this.name = name;
+        }
     }
 
-    private void m2(){
-        System.out.println("m2");
-    }
-}
