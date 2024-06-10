@@ -1,8 +1,6 @@
 package d28OOP_Collections;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Set01 {
 
@@ -70,6 +68,75 @@ public class Set01 {
 
         System.out.println("================LINKED HASHSET=============");
 
+        //        LinkedHashSet
+//        this set store elements based on their additional order...  (insertion order)
+//        the linkedHashSets are good choice for applications that require maintaning the order of the elements.
+//                however they offer slower perfomance than HashSet.....
+
+        LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
+        System.out.println("lhs = " + lhs); // []
+
+
+        lhs.add(15);
+        lhs.add(17);
+        lhs.add(7);
+        lhs.add(9);
+
+        System.out.println("lhs = " + lhs); //lhs = [15, 17, 7, 9]        //lhs = [15, 17, 75, 99, null]
+
+        //retainAll(); is used to find the intersection of elements in one collection with another.
+        // When you wanna see the common elements between two different linkedHashSet we are using RetainAll methods.....
+
+        LinkedHashSet<Integer> lhs2 = new LinkedHashSet<>();
+
+        lhs2.add(15);
+        lhs2.add(17);
+        lhs2.add(75);
+        lhs2.add(99);
+
+        System.out.println("lhs.retainAll(lhs2) = " + lhs.retainAll(lhs2));
+        System.out.println("lhs = " + lhs); //lhs = [15, 17= [15, 17]
+        System.out.println("lhs2 = " + lhs2); //lhs2 = [15, 17, 75, 99]
+
+        //TREESET
+
+        //TreeSet;
+//        This set stores elements based on their natural order(smallest to largest)
+//        it offers slower performance than HashSets and linkedHashSet
+//        in java, treeSet is a class that implements the sortedInterface...
+//        thats why treeSet is a sorted set......
+
+        //how to create TreeSet....?
+
+        TreeSet<Character> ts = new TreeSet<>();
+        ts.add('G');
+        ts.add('A');
+        ts.add('Z');
+        ts.add('H');
+        ts.add('K');
+        ts.add('B');
+
+        System.out.println(ts); //[A, B, G, H, K, Z]
+
+        TreeSet<String> ts2 = new TreeSet<>();
+        ts2.add("Istanbul");
+        ts2.add("Berlin");
+        ts2.add("Munich");
+        ts2.add("Izmir");
+        ts2.add("KOBLENZ");
+        ts2.add("Paris");
+        System.out.println("ts2 = " + ts2); //ts2 = [Berlin, Istanbul, Izmir, KOBLENZ, Munich, Paris]
+
+
+        //subSet() is used to create a new set that contains element with in certain range....
+
+//        TreeSet<Character> ss = new TreeSet<>();
+
+        SortedSet<Character> ss = ts.subSet('B','K');
+        System.out.println("ss = " + ss); //ss = [B, G, H]
+        System.out.println("ts = " + ts); //ts = [A, B, G, H, K, Z]
+
+        //Subset (inclusive, exclusive)
 
 
     }
