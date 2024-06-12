@@ -12,4 +12,24 @@ public class C08_BankAccount {
     // deposit = 500
     // withdraw = 200
     // Test insufficient funds = 2000
+
+    private String accountNumber;
+    private double balance;
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
 }
