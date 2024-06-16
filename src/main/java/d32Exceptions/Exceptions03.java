@@ -7,6 +7,7 @@ public class Exceptions03 {
         //StringIndexOutOfBoundException; when a non existing index is tried to be reached out,
         //this exception is thrown.........
 
+
         String str = "Java";
 
         pickChars(str, 2);
@@ -20,7 +21,7 @@ public class Exceptions03 {
         try {
             char ch = str.charAt(idx);
             System.out.println(ch);
-        } catch (Exception e) {
+        } catch (StringIndexOutOfBoundsException e) {
             System.out.println("Index numbers should be in bound of the string");
             System.err.println("Dont use an index number out ouf bound " + e.getMessage() );
             e.printStackTrace(); //When a developer wants to see details about the error or exception. They uses also this method....
