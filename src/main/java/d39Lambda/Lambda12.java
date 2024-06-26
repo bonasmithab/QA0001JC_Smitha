@@ -1,4 +1,4 @@
-package d38Lambda;
+package d39Lambda;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -19,15 +19,33 @@ public class Lambda12 {
         //Exapmle: Create a method that prints the elements of a list to console without duplicates in lowercase.......
         //And sorted by their lenght, from shortest to longest...
 
-        sortElementsWithLenght(myList);
+        //        sortElementsWithLenght(myList);
+
+        newMethod(myList);
     }
 
 
-    public static void sortElementsWithLenght(List<String> myList) {
+    public static void sortElementsWithLenght(List<String> myList){
 
-        myList.stream().distinct().map(t -> t.toLowerCase()).
-                sorted(Comparator.comparing(t -> t.length())).sorted().
+        myList.stream().distinct().map(t-> t.toLowerCase()).
+                sorted(Comparator.comparing(t-> t.length())).sorted().
                 forEach(t -> System.out.print(t + " "));  //ali elif yusuf jesus solomon mustafa
 
+
+
     }
+
+    public static void newMethod(List<String> myList){
+
+
+        myList.stream().distinct().map(t-> t.toLowerCase()).
+                sorted(Comparator.comparing(t-> t.length())).
+                forEach(Utils::printInTheSameLineWithSpace);
+
+
+    }
+
+
+
+
 }
